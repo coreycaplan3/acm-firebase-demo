@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lorem</title>
+
+
+    <!-- Fonts go here-->
+    <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-messaging.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-functions.js"></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyB6XMrB4kwhDUqggT45CRG-I_uN2sKjxmM",
+            authDomain: "acm-firebase.firebaseapp.com",
+            databaseURL: "https://acm-firebase.firebaseio.com/",
+            storageBucket: "gs://acm-firebase.appspot.com",
+            messagingSenderId: "<SENDER_ID>"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script src="script.js"></script>
+</head>
+<body class="primary-color lighten-5">
+<header>
+    <div class="navbar-fixed">
+        <nav class="primary-color z-depth-3">
+            <div class="nav-wrapper">
+                <span class="brand-logo hide-on-med-and-down" style="margin-left: 64px">
+                    <a id="title-label" href="#home-container">Lorem</a>
+                </span>
+
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a class="waves-effect" href="#home-container">Home</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#product-container">Product</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#about-container">About</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#contact-container">Contact</a>
+                    </li>
+                </ul>
+
+                <span class="brand-logo hide-on-large-only center-align">
+                    <a href="#home-container">Lorem</a>
+                </span>
+                <ul class="hide-on-large-only right">
+                    <li>
+                        <a class="dropdown-button waves-effect" data-activates="menu-dropdown">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul id="menu-dropdown" class="dropdown-content">
+                    <li>
+                        <a class="waves-effect primary-color-text" href="#home-container">Home</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect primary-color-text" href="#product-container">Product</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect primary-color-text" href="#about-container">About</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect primary-color-text" href="#contact-container">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div id="home-container" class="scrollspy pushpin-item">
+        <h3 id="message-label"></h3>
+    </div>
+
+</main>
+
+<footer class="page-footer primary-color darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">
+                    Footer Content
+                </h5>
+                <p class="grey-text text-lighten-4">
+                    You can use rows and columns here to organize your footer content.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright primary-color darken-4">
+        <div class="container">
+            © 2018 New Media LLC
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

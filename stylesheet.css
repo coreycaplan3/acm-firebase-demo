@@ -1,0 +1,143 @@
+/* The font goes here */
+body {
+    font-family: 'Raleway', cursive;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#message-label {
+    text-align: center;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Google "material design colors" to find alternate colors */
+.primary-color {
+    background-color: #2196f3 !important;
+}
+
+.accent-color {
+    background-color: #4caf50 !important;
+}
+
+.primary-color-text {
+    color: #2196f3 !important;
+}
+
+.accent-color-text {
+    color: #4caf50 !important;
+}
+
+/* Shades */
+
+/* 50 */
+.primary-color.lighten-5 {
+    background-color: #e3f2fd !important;
+}
+
+/* 100 */
+.primary-color.lighten-4 {
+    background-color: #bbdefb !important;
+}
+
+/* 200 */
+.primary-color.lighten-3 {
+    background-color: #90caf9 !important;
+}
+
+/* 300 */
+.primary-color.lighten-2 {
+    background-color: #64b5f6 !important;
+}
+
+/* 400 */
+.primary-color.lighten-1 {
+    background-color: #42a5f5 !important;
+}
+
+/* 600 */
+.primary-color.darken-1 {
+    background-color: #1e88e5 !important;
+}
+
+/* 700 */
+.primary-color.darken-2 {
+    background-color: #1976d2 !important;
+}
+
+/* 800 */
+.primary-color.darken-3 {
+    background-color: #1565c0 !important;
+}
+
+/* 900 */
+.primary-color.darken-4 {
+    background-color: #0d47a1 !important;
+}
+
+/* Container backgrounds */
+#product-container {
+    background-color: #FF9800 !important;
+}
+
+#about-container {
+    background-color: #8BC34A !important;
+}
+
+#contact-container {
+    background-color: #9E9E9E !important;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #2196f3 !important;
+}
+
+.slides {
+    height: 440px !important;
+}
+
+.indicators {
+    z-index: 5 !important;
+}
+
+.regular-padding {
+    padding: 16px;
+}
+
+.full-padding {
+    padding: 32px;
+}
+
+.pin-top {
+    position: relative;
+}
+
+.pin-bottom {
+    position: relative;
+}
+
+.pinned {
+    position: fixed !important;
+}
+
+.navbar-fixed {
+    z-index: 999;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+html, body, .block {
+    height: 100%;
+}
